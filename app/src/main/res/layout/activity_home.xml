@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor_background"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout3"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_doc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Dr.Prodip Kumar"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout1"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_doc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Dr.Shamima Anwar"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout1"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_doc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Dr.Abdul Qader"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout1"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_doc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Dr.Meherunnesa Khanom"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
